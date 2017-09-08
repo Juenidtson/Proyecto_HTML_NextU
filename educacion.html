@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="curruculum vitae, hoja de vida, resumen curricular">
+    <meta name="description" content="Hoja de vida personal hecha para proyecto nextu">
+    <meta name="author" content="Juenidtson Gonzalez">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      Logo
+      <h1>Hoja de Vida</h1>
+      <h2>Juenidtson Gonzalez</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h3>Educación</h3>
+      <table border="1px">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2010</td>
+            <td>U.E.P Ambrosio Plaza</td>
+            <td>Los Teques</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2014</td>
+            <td>Universidad Central de Venezuela</td>
+            <td>Caracas</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>UPTAMCA</td>
+            <td>Los Teques</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Agregar Educaión</h3>
+      <form action="educacion.html" method="post">
+        <label for="ano">Año: </label>
+        <select id="ano">
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+        </select>
+        <br><br>
+        <label for="institucion">Institución: </label>
+        <input type="text" id="institucion" required></input>
+        <br><br>
+        <label for="lugar">Lugar: </label>
+        <textarea rows="4" cols="50" id="lugar" required></textarea>
+        <br><br>
+        <label for="culmino">¿Culminó?: </label>
+        <input type="radio" id="culmino" value="si" selected>Si</input>
+        <input type="radio" id="culmino" value="no" selected>No</input>
+        <br><br>
+        <input type="submit"></input>
+      </form>
+      <br>
+    <footer>
+      <em>&copy; Derechos Reservados</em>
+      <ul>
+        <li><strong>Email: </strong>jue.ucv@gmail.com</li>
+        <li><strong>Teléfono: </strong>+584128016902</li>
+        <li><strong>Dirección: </strong>Av. Victor Baptista, Fentre a CorpoSalud, Urb El Barbecho, Los Teques, Miranda, Venezuela</li>
+      </ul>
+    </footer>
+  </body>
+</html>
